@@ -34,7 +34,7 @@ Respuesta: git branch
 
 8. Comando que se usara desde la Clase 22 para traer cambios de main:
 
-Respuesta: git pull origin main
+Respuesta: git checkout main, luego git pull --ff-only origin main, luego git checkout angeli_florez, luego git merge main
 
 9. Explica con tus palabras que significa fast-forward:
 

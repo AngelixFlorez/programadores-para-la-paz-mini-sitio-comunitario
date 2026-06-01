@@ -1,8 +1,8 @@
 Checklist de accesibilidad y seguridad visual – Clase 22
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 Marca SÍ o NO y explica brevemente.
 
@@ -10,58 +10,58 @@ Marca SÍ o NO y explica brevemente.
 
 ¿La interfaz funciona como vitrina comunitaria clara?
 
-Respuesta:
+Respuesta: Sí, los mensajes se presentan en tarjetas ordenadas con título, contenido y metadatos.
 
 2. Accesibilidad mínima
 
 ¿Los títulos son comprensibles y las secciones están separadas?
 
-Respuesta:
+Respuesta: Sí, cada sección tiene un encabezado claro y están visualmente separadas.
 
 3. Legibilidad
 
 ¿Los textos se pueden leer con facilidad?
 
-Respuesta:
+Respuesta: Sí, el tamaño de fuente y el espaciado son adecuados para lectura en pantalla.
 
 4. Contraste suficiente
 
 ¿El texto se distingue del fondo?
 
-Respuesta:
+Respuesta: Sí, el contraste entre texto y fondo es suficiente para leer sin esfuerzo.
 
 5. Jerarquía visual
 
 ¿Se entiende qué información es principal y qué información es secundaria?
 
-Respuesta:
+Respuesta: Sí, los títulos tienen mayor peso visual y los metadatos aparecen en texto secundario.
 
 6. Lenguaje claro
 
 ¿Los mensajes son comprensibles para una comunidad general?
 
-Respuesta:
+Respuesta: Sí, usan lenguaje sencillo y directo sin tecnicismos innecesarios.
 
 7. Organización visual coherente
 
 ¿Las tarjetas mantienen una estructura similar?
 
-Respuesta:
+Respuesta: Sí, todas las tarjetas siguen el mismo patrón: título, cuerpo, etiquetas y fuente.
 
 8. Seguridad visual
 
 ¿La vista pública evita saturación, confusión o exposición innecesaria?
 
-Respuesta:
+Respuesta: Sí, no hay elementos que saturen la vista ni datos sensibles expuestos.
 
 9. Minimización de datos visibles
 
 ¿La página muestra solo la información necesaria?
 
-Respuesta:
+Respuesta: Sí, solo se muestran campos útiles para la comunidad; el id queda oculto.
 
 10. Lenguaje responsable y no estigmatizante
 
 ¿Los mensajes evitan insultos, generalizaciones, alarmismo o señalamientos sin evidencia?
 
-Respuesta:
+Respuesta: Sí, los mensajes tienen tono preventivo, pedagógico o informativo, siempre respetuoso.
