@@ -1,8 +1,8 @@
 Checklist de API propia – Clase 23
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 Marca SÍ o NO y explica brevemente.
 
@@ -10,58 +10,58 @@ Marca SÍ o NO y explica brevemente.
 
 ¿El frontend consulta información del backend?
 
-Respuesta:
+Respuesta: Sí, mediante fetch() el frontend solicita datos a las rutas del servidor.
 
 2. Consumo de la API propia
 
 ¿La página usa rutas del mismo proyecto?
 
-Respuesta:
+Respuesta: Sí, todas las rutas son propias del proyecto: /api/mensajes, /api/calendario, /api/resumen.
 
 3. Mensajes dinámicos
 
 ¿Los mensajes aparecen desde datos consultados y no solo desde HTML fijo?
 
-Respuesta:
+Respuesta: Sí, los mensajes se cargan dinámicamente desde la API, no están escritos en el HTML.
 
 4. Ruta GET /api/mensajes
 
 ¿La ruta responde correctamente?
 
-Respuesta:
+Respuesta: Sí, devuelve un arreglo JSON con los mensajes comunitarios.
 
 5. Ruta GET /api/calendario
 
 ¿La ruta responde correctamente?
 
-Respuesta:
+Respuesta: Sí, devuelve un arreglo JSON con las piezas del calendario editorial.
 
 6. Ruta GET /api/resumen
 
 ¿La ruta responde correctamente?
 
-Respuesta:
+Respuesta: Sí, devuelve un objeto JSON con totales y categorías del proyecto.
 
 7. Respuesta JSON
 
 ¿Las rutas entregan datos estructurados?
 
-Respuesta:
+Respuesta: Sí, todas devuelven JSON con campos claros y organizados.
 
 8. Render dinámico
 
 ¿El tablero muestra datos recibidos desde la API?
 
-Respuesta:
+Respuesta: Sí, el frontend procesa el JSON y genera tarjetas con la información.
 
 9. Diagnóstico básico
 
 ¿Sabes qué revisar si no carga la información?
 
-Respuesta:
+Respuesta: Revisar que el servidor esté corriendo, que la ruta sea correcta y que el JSON tenga el formato esperado.
 
 10. Comunicación responsable
 
 ¿Los datos dinámicos mantienen claridad, fuente y lenguaje adecuado?
 
-Respuesta:
+Respuesta: Sí, incluyen fuente, tono adecuado y lenguaje claro para la comunidad.

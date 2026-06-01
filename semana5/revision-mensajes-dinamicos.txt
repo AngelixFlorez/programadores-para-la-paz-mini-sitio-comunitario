@@ -1,51 +1,51 @@
 Revisión editorial de mensajes dinámicos – Clase 23
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 Selecciona un mensaje que aparezca en el tablero y responde.
 
 1. Título del mensaje seleccionado:
 
-Respuesta:
+Respuesta: Verifica antes de compartir información
 
 2. ¿El mensaje se cargó dinámicamente desde la API?
 
-Respuesta:
+Respuesta: Sí, al hacer clic en Cargar mensajes, el frontend consulta GET /api/mensajes y muestra los datos.
 
 3. ¿El mensaje tiene propósito comunitario?
 
-Respuesta:
+Respuesta: Sí, busca prevenir la desinformación en la comunidad.
 
 4. ¿El mensaje tiene audiencia clara?
 
-Respuesta:
+Respuesta: Sí, está dirigido a comunidad general.
 
 5. ¿El tono es adecuado?
 
-Respuesta:
+Respuesta: Sí, usa un tono preventivo que invita a la reflexión sin alarmar.
 
 6. ¿El llamado a la acción es comprensible?
 
-Respuesta:
+Respuesta: Sí, "Consulta la fuente antes de compartir" es claro y accionable.
 
 7. ¿El mensaje tiene fuente o criterio de verificación?
 
-Respuesta:
+Respuesta: Sí, indica "Canal institucional comunitario" como fuente.
 
 8. ¿Mantiene consistencia comunicativa con los demás mensajes?
 
-Respuesta:
+Respuesta: Sí, todos los mensajes comparten estructura, tono responsable y propósito educativo.
 
 9. ¿Requiere moderación editorial básica antes de publicarse?
 
-Respuesta:
+Respuesta: No, ya está aprobado en revisión editorial.
 
 10. ¿Usa lenguaje responsable y no estigmatizante?
 
-Respuesta:
+Respuesta: Sí, usa lenguaje claro y respetuoso sin generalizaciones ni alarmismo.
 
 11. Escribe una mejora editorial para el mensaje:
 
-Respuesta:
+Respuesta: Agregar un enlace o referencia a una fuente verificable para que la comunidad pueda confirmar la información por sí misma.

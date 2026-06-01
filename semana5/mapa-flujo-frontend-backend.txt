@@ -1,8 +1,8 @@
 Mapa del flujo Frontend-Backend – Clase 23
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 Completa el flujo con tus palabras.
 
@@ -10,58 +10,58 @@ Completa el flujo con tus palabras.
 
 ¿Qué parte del proyecto corresponde al frontend?
 
-Respuesta:
+Respuesta: La carpeta public/ con index.html, styles.css y app.js que el navegador renderiza.
 
 2. Backend
 
 ¿Qué parte del proyecto corresponde al backend?
 
-Respuesta:
+Respuesta: server.js que contiene las rutas de la API y la lógica del servidor Express.
 
 3. API propia
 
 ¿Qué rutas expone la API propia del proyecto?
 
-Respuesta:
+Respuesta: GET /api/mensajes, GET /api/calendario, GET /api/resumen, POST /api/login, GET /api/revision-editorial.
 
 4. Datos
 
 ¿Qué archivos JSON usa el backend para responder?
 
-Respuesta:
+Respuesta: data/mensajes.json y data/calendario-editorial.json.
 
 5. Consulta desde frontend
 
 ¿Qué función de JavaScript se usa para consultar la API?
 
-Respuesta:
+Respuesta: fetch().
 
 6. Espera de respuesta
 
 ¿Qué palabras se usan para esperar la respuesta del servidor?
 
-Respuesta:
+Respuesta: async y await.
 
 7. Conversión de respuesta
 
 ¿Qué hace respuesta.json()?
 
-Respuesta:
+Respuesta: Convierte la respuesta HTTP en un objeto JavaScript para poder usar sus datos.
 
 8. Render dinámico
 
 ¿Qué significa mostrar datos dinámicamente en el tablero?
 
-Respuesta:
+Respuesta: Que el contenido se genera en el momento desde la API, no está escrito fijo en el HTML.
 
 9. Prueba
 
 ¿Cómo verificaste que la información del tablero coincide con la API?
 
-Respuesta:
+Respuesta: Comparé los datos que aparecen en el tablero con los que devuelve la ruta /api/mensajes en el navegador.
 
 10. Propósito comunitario
 
 ¿Cómo ayuda esta integración a mantener información comunitaria actualizable?
 
-Respuesta:
+Respuesta: Permite actualizar los datos en los archivos JSON y los cambios se reflejan automáticamente en el frontend sin modificar el HTML.

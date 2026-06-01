@@ -1,8 +1,8 @@
 Pruebas de integración Frontend-Backend – Clase 23
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 Prueba 1: Backend activo
 
@@ -13,9 +13,10 @@ Resultado esperado:
 El servidor inicia en http://localhost:3000 y muestra las rutas disponibles.
 
 Resultado observado:
+El servidor inició correctamente mostrando todas las rutas en la consola.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Prueba 2: Ruta GET /api/mensajes
 
@@ -26,9 +27,10 @@ Resultado esperado:
 El navegador muestra datos JSON de mensajes comunitarios.
 
 Resultado observado:
+Se ven 3 objetos JSON con título, mensaje, categoría y demás campos.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Prueba 3: Ruta GET /api/calendario
 
@@ -39,9 +41,10 @@ Resultado esperado:
 El navegador muestra datos JSON del calendario editorial.
 
 Resultado observado:
+Se ven objetos JSON con semana, día, tema, pieza, canal y otros campos.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Prueba 4: Ruta GET /api/resumen
 
@@ -52,9 +55,10 @@ Resultado esperado:
 El navegador muestra un resumen generado por la API propia.
 
 Resultado observado:
+Se ve un objeto JSON con totalMensajes, totalPiezasCalendario y categorías.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Prueba 5: Frontend carga mensajes
 
@@ -65,9 +69,10 @@ Resultado esperado:
 El tablero muestra mensajes dinámicos desde la API.
 
 Resultado observado:
+Aparecen las tarjetas de mensajes con información cargada desde el backend.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Prueba 6: Frontend carga calendario
 
@@ -78,9 +83,10 @@ Resultado esperado:
 El tablero muestra piezas del calendario desde la API.
 
 Resultado observado:
+Aparecen las tarjetas del calendario con datos del archivo JSON.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Prueba 7: Frontend carga resumen
 
@@ -91,11 +97,12 @@ Resultado esperado:
 La página muestra totales generados por el backend.
 
 Resultado observado:
+Se muestra el resumen con totales y categorías desde el backend.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Conclusión:
 ¿Cómo comprobaste que el frontend está conectado con el backend?
 
-Respuesta:
+Respuesta: Al hacer clic en los botones del frontend, los datos aparecen en pantalla porque el frontend usa fetch() para consultar las rutas del backend y mostrar la respuesta JSON en formato de tarjetas.
