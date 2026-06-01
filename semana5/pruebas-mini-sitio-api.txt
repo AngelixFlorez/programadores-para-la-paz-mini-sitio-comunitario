@@ -1,47 +1,50 @@
-Pruebas del mini-sitio y API – Clase 21
+Pruebas del mini-sitio y API - Clase 21
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 Prueba 1: Abrir mini-sitio
 
-Dirección:
+Direccion:
 http://localhost:3000
 
 Resultado esperado:
 El navegador muestra el mini-sitio comunitario.
 
 Resultado observado:
+El navegador muestra la pagina principal del mini-sitio con botones para cargar mensajes, calendario y resumen.
 
-¿Funcionó?
-Respuesta:
+Funciono?
+Respuesta: Si
 
 Prueba 2: Cargar mensajes
 
-Acción:
+Accion:
 Hacer clic en Cargar mensajes.
 
 Resultado esperado:
-Aparecen mensajes comunitarios con título, mensaje, categoría, audiencia, tono, llamado a la acción y fuente.
+Aparecen mensajes comunitarios con titulo, mensaje, categoria, audiencia, tono, llamado a la accion y fuente.
 
 Resultado observado:
+Aparecen 3 tarjetas con la informacion completa de cada mensaje.
 
-¿Funcionó?
-Respuesta:
+Funciono?
+Respuesta: Si
 
 Prueba 3: Cargar calendario editorial
 
-Acción:
+Accion:
 Hacer clic en Cargar calendario.
 
 Resultado esperado:
 Aparecen 6 piezas del calendario editorial.
 
 Resultado observado:
+Aparecen 6 tarjetas con la informacion de cada pieza del calendario.
 
-¿Funcionó?
-Respuesta:
+Funciono?
+Respuesta: Si
 
 Prueba 4: Ruta directa de mensajes
 
@@ -49,6 +52,7 @@ Ruta:
 http://localhost:3000/api/mensajes
 
 Resultado observado:
+Se muestra un array JSON con 3 objetos que contienen los datos de los mensajes.
 
 Prueba 5: Ruta directa de calendario
 
@@ -56,8 +60,9 @@ Ruta:
 http://localhost:3000/api/calendario
 
 Resultado observado:
+Se muestra un array JSON con 6 objetos que contienen los datos del calendario editorial.
 
-Conclusión:
-¿Qué prueba te ayudó más a entender cómo el mini-sitio consume la API?
+Conclusion:
+Que prueba te ayudo mas a entender como el mini-sitio consume la API?
 
-Respuesta:
+Respuesta: La prueba de las rutas directas /api/mensajes y /api/calendario me ayudo a entender que el frontend obtiene los datos en formato JSON desde el backend a traves de fetch.

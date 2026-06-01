@@ -1,33 +1,13 @@
-Reflexión sobre mini-sitio comunitario – Clase 21
+Reflexion sobre mini-sitio comunitario - Clase 21
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
-Escribe una reflexión de 8 a 10 líneas respondiendo:
+Escribe una reflexion de 8 a 10 lineas respondiendo:
 
-¿Por qué un mini-sitio que consume una API puede ayudar a una comunidad a difundir información de forma responsable, organizada y verificable?
-
-En tu respuesta menciona al menos cinco de estas ideas:
-
-- proyecto único en GitHub
-- rama main
-- rama personal
-- git pull origin main
-- fast-forward
-- async
-- await
-- fetch
-- API
-- JSON
-- difusión responsable
-- planificación del calendario editorial
-- calendario editorial
-- revisión de fuentes
-- consistencia comunicativa
-- moderación editorial básica
-- lenguaje responsable y no estigmatizante
-- participación ciudadana
-- cultura de paz
+Por que un mini-sitio que consume una API puede ayudar a una comunidad a difundir informacion de forma responsable, organizada y verificable?
 
 Respuesta:
+
+Un mini-sitio que consume una API permite centralizar la informacion en un solo lugar, lo que facilita la difusion responsable porque todo pasa por una misma plataforma. Al usar async, await y fetch, el sitio puede obtener datos actualizados desde el servidor sin necesidad de recargar la pagina. Los datos se almacenan en formato JSON, lo que garantiza que la informacion sea estructurada y facil de mantener. El proyecto se organiza en GitHub con una rama main protegida y ramas personales para cada estudiante, lo que evita conflictos y mantiene el orden. Esto se relaciona directamente con la difusion responsable, ya que permite planificar un calendario editorial con revision de fuentes, asegurando consistencia comunicativa. Ademas, se aplica lenguaje responsable y no estigmatizante en cada mensaje. La moderacion editorial basica garantiza que cada pieza sea revisada antes de publicarse, promoviendo asi la participacion ciudadana y una cultura de paz en el entorno digital.
