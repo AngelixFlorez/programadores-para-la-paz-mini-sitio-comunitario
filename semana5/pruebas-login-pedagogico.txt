@@ -1,8 +1,8 @@
 Pruebas de login pedagógico – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 Importante:
 Este login es solo pedagógico. No es autenticación real.
@@ -13,9 +13,10 @@ Dirección:
 http://localhost:3000
 
 Resultado observado:
+El mini-sitio cargó correctamente con todas las secciones visibles.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Prueba 2: Login con credenciales de demostración
 
@@ -29,9 +30,10 @@ Resultado esperado:
 El servidor responde con mensaje de login pedagógico correcto.
 
 Resultado observado:
+Aparece el mensaje "Login pedagógico correcto. Ya puedes probar la ruta protegida."
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Prueba 3: Login con clave incorrecta
 
@@ -45,20 +47,21 @@ Resultado esperado:
 El servidor responde que usuario o clave son incorrectos.
 
 Resultado observado:
+Aparece el mensaje "Usuario o clave de demostración incorrectos."
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí
 
 Prueba 4: Revisar almacenamiento del token de demostración
 
 ¿Qué token de demostración devuelve el servidor?
 
-Respuesta:
+Respuesta: "token-demostracion-clase-24"
 
 5. ¿Por qué este token no debe confundirse con seguridad real?
 
-Respuesta:
+Respuesta: Porque es un token fijo y predecible usado solo para fines pedagógicos. No representa autenticación real ni debe usarse en producción.
 
 6. ¿Para qué se usará este login en la Clase 25?
 
-Respuesta:
+Respuesta: Para probar el middleware de protección de rutas y entender cómo funciona la autorización básica en un servidor Express.

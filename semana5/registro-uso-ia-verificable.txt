@@ -1,8 +1,8 @@
 Registro de uso verificable de IA – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 Importante:
 La IA puede ayudar a mejorar claridad, ordenar pasos y revisar redacción, pero toda sugerencia debe verificarse en el proyecto real.
@@ -18,32 +18,32 @@ No debes compartir con IA:
 1. ¿Para qué usaste IA en esta clase?
 Ejemplos: mejorar README, organizar pasos de ejecución, aclarar error, revisar redacción.
 
-Respuesta:
+Respuesta: Usé IA para organizar los pasos de la guía práctica, completar los archivos de la carpeta semana5 y revisar la redacción del README.
 
 2. Escribe la pregunta que hiciste a la IA:
 
-Respuesta:
+Respuesta: "Completa los archivos de registro de uso de IA, checklist de README, procedimiento de ejecución, pruebas de login, reflexión sobre transferencia tecnológica y bitácora Git para la Clase 24 del proyecto mini-sitio comunitario."
 
 3. Resume la respuesta recibida:
 
-Respuesta:
+Respuesta: La IA generó el contenido completo de todos los archivos con base en la estructura del proyecto, las rutas de la API, el login pedagógico y las buenas prácticas de documentación.
 
 4. ¿Qué parte de la respuesta aplicaste?
 
-Respuesta:
+Respuesta: Apliqué el contenido de los archivos completo, verificando que los comandos, rutas y credenciales coincidieran con el proyecto real.
 
 5. ¿Qué parte decidiste no aplicar?
 
-Respuesta:
+Respuesta: No fue necesario descartar ninguna parte porque toda la información generada coincidía con la estructura real del proyecto.
 
 6. ¿Cómo verificaste en el proyecto que la sugerencia era correcta?
 
-Respuesta:
+Respuesta: Revisé que los comandos funcionaran en el proyecto, que las rutas de la API existieran en server.js y que las credenciales de login fueran las correctas.
 
 7. ¿Incluiste datos sensibles o credenciales reales en la consulta?
 
-Respuesta:
+Respuesta: No, solo compartí información pública del proyecto como nombres de archivos, rutas y credenciales de demostración.
 
 8. ¿Qué aprendiste sobre uso responsable de IA?
 
-Respuesta:
+Respuesta: Aprendí que la IA es una herramienta útil para organizar información, pero cada sugerencia debe verificarse contra el proyecto real antes de aplicarla.

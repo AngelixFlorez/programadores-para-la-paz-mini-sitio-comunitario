@@ -1,8 +1,8 @@
 Procedimiento de ejecución del proyecto – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 Escribe el procedimiento para que otra persona pueda ejecutar el proyecto.
 
@@ -11,66 +11,66 @@ Escribe el procedimiento para que otra persona pueda ejecutar el proyecto.
 ¿Qué debe tener instalado la persona?
 Ejemplos: Git, Node.js, navegador, editor de código.
 
-Respuesta:
+Respuesta: Git, Node.js (v16+), un navegador web y un editor de código como VS Code.
 
 2. Clonar repositorio
 
 Comando:
 
-Respuesta:
+Respuesta: git clone https://github.com/AngelixFlorez/programadores-para-la-paz-mini-sitio-comunitario.git
 
 3. Entrar a la carpeta del proyecto
 
 Comando:
 
-Respuesta:
+Respuesta: cd programadores-para-la-paz-mini-sitio-comunitario
 
 4. Crear o cambiar a rama personal
 
 Comando:
 
-Respuesta:
+Respuesta: git checkout -b nombres_apellidos
 
 5. Instalar dependencias
 
 Comando:
 
-Respuesta:
+Respuesta: npm install
 
 6. Ejecutar el proyecto
 
 Comando:
 
-Respuesta:
+Respuesta: npm run sitio
 
 7. Abrir en navegador
 
 Dirección:
 
-Respuesta:
+Respuesta: http://localhost:3000
 
 8. Probar rutas de la API
 
 Escribe las rutas que se deben probar:
 
-Respuesta:
+Respuesta: GET /api/mensajes, GET /api/calendario, GET /api/resumen, POST /api/login
 
 9. Probar login pedagógico
 
-Usuario de demostración:
+Usuario de demostración: docente
 
-Clave de demostración:
+Clave de demostración: demo
 
-Resultado esperado:
+Resultado esperado: Mensaje de login pedagógico correcto y almacenamiento del token de demostración.
 
 10. Verificación final
 
 ¿Cómo sabe la persona que el proyecto está funcionando?
 
-Respuesta:
+Respuesta: Al abrir http://localhost:3000 se ve el mini-sitio con botones. Al hacer clic en Cargar mensajes aparecen tarjetas con información.
 
 11. Nota de seguridad
 
 ¿Qué información NO debe publicarse?
 
-Respuesta:
+Respuesta: Credenciales reales, tokens reales, datos personales, información sensible de la comunidad y contenido sin verificar.
