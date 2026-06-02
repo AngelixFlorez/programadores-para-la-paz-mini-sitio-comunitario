@@ -29,17 +29,15 @@
         No uses credenciales reales.
       </p>
 
-      <label for="usuario">Usuario:</label>
-      <br>
-      <input id="usuario" type="text" value="docente">
-      <br><br>
+      <div class="login-grid">
+        <label for="usuario">Usuario:</label>
+        <input id="usuario" type="text" value="docente" aria-label="Usuario de demostración">
 
-      <label for="clave">Clave:</label>
-      <br>
-      <input id="clave" type="password" value="demo">
-      <br><br>
+        <label for="clave">Clave:</label>
+        <input id="clave" type="password" value="demo" aria-label="Clave de demostración">
 
-      <button id="btnLogin">Ingresar</button>
+        <button id="btnLogin">Ingresar</button>
+      </div>
 
       <p id="mensajeLogin">Aquí aparecerá la respuesta del login pedagógico.</p>
     </section>
@@ -90,6 +88,11 @@
       </div>
     </section>
   </main>
+
+  <footer>
+    <p><strong>Programadores para la Paz</strong> &mdash; Mini-sitio comunitario &mdash; Semana 5</p>
+    <p>Angeli Florez &mdash; Rama: <code>angeli_florez</code></p>
+  </footer>
 
   <script src="app.js"></script>
 </body>

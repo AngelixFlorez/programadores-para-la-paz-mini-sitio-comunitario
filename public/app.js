@@ -14,10 +14,17 @@ const clave = document.getElementById("clave")
 const btnRevisionEditorial = document.getElementById("btnRevisionEditorial")
 const contenedorRevisionEditorial = document.getElementById("contenedorRevisionEditorial")
 
+function mostrarCarga(contenedor) {
+  contenedor.innerHTML = '<p class="estado-carga">Cargando datos</p>'
+}
+
+function mostrarError(contenedor, mensaje) {
+  contenedor.innerHTML = `<p class="texto-secundario" style="text-align:center;padding:1rem;">${mensaje}</p>`
+}
+
 btnRevisionEditorial.addEventListener("click", () => {
-    cargarRevisionEditorial()
-  })
-  
+  cargarRevisionEditorial()
+})
 
 btnMensajes.addEventListener("click", () => {
   cargarMensajes()
@@ -64,6 +71,7 @@ async function hacerLogin() {
 }
 
 async function cargarMensajes() {
+  mostrarCarga(contenedorMensajes)
   try {
     const respuesta = await fetch("/api/mensajes")
     const mensajes = await respuesta.json()
@@ -92,11 +100,12 @@ async function cargarMensajes() {
       contenedorMensajes.appendChild(tarjeta)
     }
   } catch (error) {
-    contenedorMensajes.textContent = "No fue posible cargar los mensajes. Revisa que el servidor esté funcionando."
+    mostrarError(contenedorMensajes, "No fue posible cargar los mensajes. Revisa que el servidor esté funcionando.")
   }
 }
 
 async function cargarCalendario() {
+  mostrarCarga(contenedorCalendario)
   try {
     const respuesta = await fetch("/api/calendario")
     const calendario = await respuesta.json()
@@ -121,11 +130,12 @@ async function cargarCalendario() {
       contenedorCalendario.appendChild(tarjeta)
     }
   } catch (error) {
-    contenedorCalendario.textContent = "No fue posible cargar el calendario editorial. Revisa que el servidor esté funcionando."
+    mostrarError(contenedorCalendario, "No fue posible cargar el calendario editorial. Revisa que el servidor esté funcionando.")
   }
 }
 
 async function cargarResumen() {
+  mostrarCarga(contenedorResumen)
   try {
     const respuesta = await fetch("/api/resumen")
     const resumen = await respuesta.json()
@@ -145,42 +155,42 @@ async function cargarResumen() {
 
     contenedorResumen.appendChild(tarjeta)
   } catch (error) {
-    contenedorResumen.textContent = "No fue posible cargar el resumen. Revisa que el servidor esté funcionando."
+    mostrarError(contenedorResumen, "No fue posible cargar el resumen. Revisa que el servidor esté funcionando.")
   }
 }
 
 async function cargarRevisionEditorial() {
-    try {
-      const token = localStorage.getItem("tokenDemo")
-  
-      const respuesta = await fetch("/api/revision-editorial", {
-        headers: {
-          "Authorization": token
-        }
-      })
-  
-      const datos = await respuesta.json()
-  
-      contenedorRevisionEditorial.innerHTML = ""
-  
-      const tarjeta = document.createElement("article")
-      tarjeta.classList.add("tarjeta-mensaje")
-  
-      tarjeta.innerHTML = `
-        <h3>Revisión editorial protegida</h3>
-        <p>${datos.mensaje}</p>
-        <p>${datos.recomendacion || ""}</p>
-      `
-  
-      if (datos.criterios) {
-        tarjeta.innerHTML += `
-          <p><strong>Criterios:</strong> ${datos.criterios.join(", ")}</p>
-        `
+  mostrarCarga(contenedorRevisionEditorial)
+  try {
+    const token = localStorage.getItem("tokenDemo")
+    const respuesta = await fetch("/api/revision-editorial", {
+      headers: {
+        "Authorization": token
       }
-  
-      contenedorRevisionEditorial.appendChild(tarjeta)
-    } catch (error) {
-      contenedorRevisionEditorial.textContent = "No fue posible consultar la ruta protegida."
+    })
+
+    const datos = await respuesta.json()
+
+    contenedorRevisionEditorial.innerHTML = ""
+
+    const tarjeta = document.createElement("article")
+    tarjeta.classList.add("tarjeta-mensaje")
+
+    tarjeta.innerHTML = `
+      <h3>Revisión editorial protegida</h3>
+      <p>${datos.mensaje}</p>
+      <p>${datos.recomendacion || ""}</p>
+    `
+
+    if (datos.criterios) {
+      tarjeta.innerHTML += `
+        <p><strong>Criterios:</strong> ${datos.criterios.join(", ")}</p>
+      `
     }
+
+    contenedorRevisionEditorial.appendChild(tarjeta)
+  } catch (error) {
+    mostrarError(contenedorRevisionEditorial, "No fue posible consultar la ruta protegida. Realiza el login pedagógico primero.")
   }
+}
   
