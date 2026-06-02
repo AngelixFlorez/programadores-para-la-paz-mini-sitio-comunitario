@@ -54,7 +54,7 @@ Este proyecto trabaja:
 ## Instalación
 
 Clonar el repositorio:
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/AngelixFlorez/programadores-para-la-paz-mini-sitio-comunitario.git
 Entrar al proyecto:
 cd programadores-para-la-paz-mini-sitio-comunitario
 Crear rama personal:
@@ -75,6 +75,9 @@ Entrega las piezas del calendario editorial.
 GET /api/resumen
 Entrega un resumen básico del proyecto.
 POST /api/login
+Login pedagógico con credenciales de demostración (docente/demo). Devuelve token de acceso.
+GET /api/revision-editorial
+Ruta protegida por middleware. Requiere token de demostración en el encabezado Authorization.
 
 ## Ruta pedagógica de login
 
@@ -83,14 +86,6 @@ Esta ruta es solo para aprendizaje. No representa autenticación real ni debe us
 Credenciales de demostración:
 usuario: docente
 clave: demo
-
-## Middleware simple (ruta protegida)
-
-GET /api/revision-editorial
-Esta ruta está protegida por el middleware `verificarTokenDemo`.
-Requiere un token de demostración en el encabezado Authorization.
-El token se obtiene al hacer login pedagógico con docente/demo.
-Si no hay token, responde con 401. Si el token es inválido, responde con 403.
 
 ## Flujo de trabajo con Git
 

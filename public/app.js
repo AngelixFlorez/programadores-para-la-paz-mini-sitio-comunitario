@@ -63,7 +63,6 @@ async function hacerLogin() {
 
     if (respuesta.ok) {
       localStorage.setItem("tokenDemo", datos.token)
-      localStorage.setItem("rolDemo", datos.rol)
     }
   } catch (error) {
     mensajeLogin.textContent = "No fue posible realizar el login pedagógico. Revisa el servidor."
