@@ -84,6 +84,14 @@ Credenciales de demostración:
 usuario: docente
 clave: demo
 
+## Middleware simple (ruta protegida)
+
+GET /api/revision-editorial
+Esta ruta está protegida por el middleware `verificarTokenDemo`.
+Requiere un token de demostración en el encabezado Authorization.
+El token se obtiene al hacer login pedagógico con docente/demo.
+Si no hay token, responde con 401. Si el token es inválido, responde con 403.
+
 ## Flujo de trabajo con Git
 
 La rama main es actualizada por docentes.

@@ -1,8 +1,8 @@
 Evidencia dual de Semana 5 – Clase 25
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Angeli Florez
+Fecha: 01/06/2026
+Nombre de la rama: angeli_florez
 
 La evidencia dual de Semana 5 está compuesta por:
 
@@ -10,60 +10,60 @@ La evidencia dual de Semana 5 está compuesta por:
 
 Describe brevemente qué hace el mini-sitio:
 
-Respuesta:
+Respuesta: Muestra mensajes comunitarios, calendario editorial y resumen del proyecto consumiendo datos desde una API propia con Express.
 
 Rutas probadas:
 
-Respuesta:
+Respuesta: GET /api/mensajes, GET /api/calendario, GET /api/resumen, POST /api/login, GET /api/revision-editorial
 
 2. README versionado en Git
 
 Explica qué información contiene el README:
 
-Respuesta:
+Respuesta: Propósito, instalación, ejecución, rutas, login pedagógico, middleware simple, flujo Git, uso responsable de IA y evidencia.
 
 3. Calendario editorial de dos semanas
 
 Describe el tema general del calendario editorial:
 
-Respuesta:
+Respuesta: Difusión responsable, prevención de desinformación, participación ciudadana y cultura de paz.
 
 Número de piezas:
 
-Respuesta:
+Respuesta: 6 piezas
 
 4. Difusión responsable
 
 ¿Cómo garantiza el proyecto una difusión responsable?
 
-Respuesta:
+Respuesta: Los mensajes incluyen fuente, categoría, audiencia y tono, y pasan por revisión editorial antes de publicarse.
 
 5. Revisión de fuentes
 
 ¿Cómo se revisa o menciona la fuente de la información?
 
-Respuesta:
+Respuesta: Cada mensaje y pieza del calendario incluye el campo "fuente" que indica el origen de la información.
 
 6. Consistencia comunicativa
 
 ¿Cómo se mantiene coherencia entre mensajes y piezas?
 
-Respuesta:
+Respuesta: Todos los mensajes comparten estructura, tono pedagógico y enfoque en cultura de paz y participación ciudadana.
 
 7. Moderación editorial básica
 
 ¿Qué criterios se deben revisar antes de publicar?
 
-Respuesta:
+Respuesta: Fuente, audiencia, tono, llamado a la acción y lenguaje responsable y no estigmatizante.
 
 8. GitHub y trazabilidad
 
 ¿Qué commits o avances registraste durante la semana?
 
-Respuesta:
+Respuesta: Clase 22 (tablero mensajes), Clase 23 (integración FE-BE), Clase 24 (README, IA, login) y Clase 25 (cierre y middleware).
 
 9. Conclusión personal
 
 ¿Por qué este proyecto es más completo que un ejercicio técnico aislado?
 
-Respuesta:
+Respuesta: Combina frontend, backend, API, Git, documentación, accesibilidad y comunicación responsable, formando una herramienta comunitaria integral.
